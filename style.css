@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+ .parent{
+  background: white ;
+ }
+.child{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  height: 100vh;
+}
+.sedan{
+  width: 250px;
+  height: 450px;
+  color: white;
+  
+}
+.echo{
+background-color: orange;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+.sedan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.suv{
+  background-color: rgb(6, 66, 66);
+}
+.luxury{
+  background-color: rgb(7, 31, 31);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sedan button{
+  color: orange;
+}
+.suv button{
+color: rgb(6, 66, 66);
+}
+
+.go{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
+}
+.sidebutton{
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 40px;
+}
+@media(max-width:500px){
+  .child{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300vh ;
+  }
+}
+@media(max-width:400px){
+  .child{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:290vh ;
+  }
+}
+@media(max-width:300px){
+  .child{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290vh;
+  }
+}
+@media(max-width:200px){
+  .child{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:290vh ;
+  }
+}
